@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Holtwood+One+SC" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Car Garage</h1>
+        <h2>Hand-built by robots.</h2>
+    </header>
+
+    <section>
+        <div class="carForm">
+            <div class="carFormHeader">
+                <h1>Select a Car</h1>
+            </div>
+            <fieldset>
+                <select id="selectMake">
+                    <option value="" disabled selected hidden>Make</option> 
+                </select>
+                <select id="selectModel">
+                    <option value="" disabled selected hidden>Model</option> 
+                </select>
+                <select id="selectYear">
+                        <option value="" disabled selected hidden>Year</option>    
+                    </select>
+                <select id="selectColor">
+                    <option value="" disabled selected hidden>Color</option> 
+                </select>
+
+                <button type="submit">Add to Garage</button>
+            </fieldset>
+        </div>
+
+        <div class="carList">
+            <h2>Car Garage:</h2>
+            <ul>
+                <li>
+                    <p>Example</p>
+                    <p>remove</p>
+                </li>
+                <li>
+                    <p>Example</p>
+                </li>
+                <li>
+                    <p>Example</p>
+                </li>
+                <li>
+                    <p>Example</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div class="carResults">
+
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="carData.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
